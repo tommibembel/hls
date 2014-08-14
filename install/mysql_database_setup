@@ -1,3 +1,4 @@
 CREATE DATABASE hls CHARACTER SET utf8;
 CREATE USER 'hls'@'localhost' IDENTIFIED BY 'geheimespw';
 GRANT ALL PRIVILEGES ON hls.* TO 'hls'@'localhost';
+FLUSH PRIVILEGES;
